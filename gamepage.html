@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math quiz for my last braincell</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"> 
+
+</head>
+<body>
+    <h4 id="gameplayer1">name 1:</h4> <span id="player1score">0</span>
+
+    <br>
+    <h4 id="gameplayer2"> name 2:</h4> <span id="player2score">0</span>
+    <div class="container">
+        <center>
+            <h1>Denki's last braincell game :)))</h1>
+            <h4 id="question_turn"></h4>
+            <h4 id="answer_turn"></h4>
+            <div id="output">
+            </div>
+            <label>Number 1</label>
+            <input id="no_1" placeholder="Type your first number here" type="number" class="form-control">
+            <br>
+            <label>Number 2</label>
+            <input id="no_2" placeholder="Type your second number here" type="number" class="form-control">
+            <br>
+            <button onclick="yes()">Send numbers to Denki's Braincell</button>
+
+        </center>
+    </div>
+    <script src="gamepage.js"></script>
+</body>
+</html>
